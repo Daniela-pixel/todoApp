@@ -1,0 +1,16 @@
+<div class="join-container">
+  <div class="join-wrapper">
+    <h1>Sing in</h1>
+    <form [formGroup]="joinFG">
+      <input type="text" formControlName="name" placeholder="Name">
+      <br> <br>
+      <input type="text" formControlName="email" placeholder="Email">
+      <br> <br>
+      <input type="password" formControlName="password" placeholder="Password">
+      <br> <br>
+      <input type="password" formControlName="confirmPass" placeholder="Confirm password">
+      <br> <br>
+      <button type="button" (click)="onSubmit()">SING UP</button>
+    </form>
+  </div>
+</div>

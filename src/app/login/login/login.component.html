@@ -1,0 +1,15 @@
+<div class="login-container">
+  <div class="login-wrapper">
+    <form [formGroup]="loginFG">
+      <input type="email" formControlName="email" placeholder="   Email ID">
+      <br> <br>
+      <input type="password" formControlName="password" placeholder="   Password">
+      <br> <br>
+      <div class="">
+        <button type="button" (click)="login()">L O G I N</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+

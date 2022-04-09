@@ -1,0 +1,12 @@
+<div class="note-container">
+  <div class="note-wrapper">
+    <form [formGroup]="noteFG">
+      <input type="text" placeholder="Title" formControlName="title">
+      <br> <br>
+      <input type="text" placeholder="Text" formControlName="text">
+      <br> <br>
+      <button type="button" (click)="addNote()">Submit</button>
+    </form>
+  </div>
+  <router-outlet></router-outlet>
+</div>

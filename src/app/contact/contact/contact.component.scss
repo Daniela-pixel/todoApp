@@ -1,0 +1,12 @@
+.contact-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  top: 0;
+  left: 0;
+  .contact-wrapper{
+    position: absolute;
+  }
+}

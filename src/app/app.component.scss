@@ -1,0 +1,74 @@
+.title{
+  font-family: myHandWritingFont;
+}
+.addTodoButton{
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: rgb(133, 120, 194);
+    color: white;
+    border: none;
+    font-family: sans-serif;
+  }
+  button:hover{
+    box-shadow: 0 5px 20px rgb(133, 120, 194);
+  }
+}
+.todoBox{
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 15px lightslategray;
+  position: relative;
+  .todoElement{
+    font-family: myHandWritingFont;
+    padding-left: 20px;
+  }
+  .deleteButton{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+  button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: rgb(54, 45, 100);
+    color: white;
+    border: none;
+    font-family: sans-serif;
+  }
+  button:hover{
+    box-shadow: 0 5px 20px rgb(54, 45, 100);
+  }
+}
+.container {
+  width: 100%;
+  margin-top: 15px;
+  .header {
+
+    a {
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      line-height: 25px;
+      border-radius: 2px;
+      color: black;
+    }
+
+    .loginLink {
+      background-image: linear-gradient(135deg, #d28e86, #385c8c);
+      color: white;
+      font-weight: bold;
+    }
+
+    hr {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+

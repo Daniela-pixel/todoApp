@@ -1,0 +1,13 @@
+<div class="add-edit-todo-container">
+  <div class="add-edit-todo-wrapper">
+    <label>Note title: </label>
+    <form [formGroup]="noteFG">
+      <input formControlName="title" placeholder="Title">
+      <br> <br>
+      <label>Note text: </label>
+      <input formControlName="text" placeholder="Text">
+      <br> <br>
+      <button type="button" (click)="save()">Save</button>
+    </form>
+  </div>
+</div>
